@@ -1,10 +1,4 @@
 ﻿using PictureReducerShared; // Assuming the shared library is referenced
-using System;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Imaging;
-using System.IO;
-using System.Linq;
 using System.Runtime.Versioning;
 
 class SingleImageResizer
@@ -12,13 +6,6 @@ class SingleImageResizer
     [SupportedOSPlatform("windows")]
     static void Main(string[] args)
     {
-        //Console.WriteLine(  args.Length.ToString());
-
-        //Console.WriteLine("args[0] " + args[0]);
-        //Console.WriteLine("args[1] " + args[1]);
-        //Console.WriteLine("args[2] " + args[2]); 
-
-
         if (args.Length != 3)
         {
             Console.WriteLine("Usage: SingleImageResizer - Incorrect parameters passed");
