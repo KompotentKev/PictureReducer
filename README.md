@@ -1,0 +1,1 @@
+small c# console app to reduce picture sizes - one is a batch file - pass two args directories source and target the other is a single file reducer pass three args souce path target path and filename - dont forget in c# eith not to pass the last "\" or to add a "\" 
